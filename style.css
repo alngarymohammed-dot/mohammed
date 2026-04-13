@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: black;
+  background-image: url(https://3jenan.com/blog/wp-content/uploads/2020/09/%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D9%8A%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AA-%D9%83%D8%A7%D9%85%D9%84-%D9%88%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D9%84%D8%B9%D9%85%D9%84.gif);
+  color: white;
+}
+
+
+.a{
+  background: rgba(70, 70, 70, 0.507);
+}
+.b {
+  padding: 80px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #0d86ff;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 30px;
+  color: #4200f8;
+}
+
+nav {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
